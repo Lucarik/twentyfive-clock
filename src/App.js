@@ -105,7 +105,7 @@ function Clock() {
   const [breakTime, setBreakTime] = useState(5);
   const [sessionTime, setSessionTime] = useState(25);
   const [mainTime, setMainTime] = useState(sessionTime*60);
-  window.intervalId;
+  window.intervalId; // eslint-disable-line
   /**
  * @function decrementTime Decrements the current main time by 1 second
  */

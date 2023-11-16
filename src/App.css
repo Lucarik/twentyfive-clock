@@ -78,6 +78,12 @@ h5, .time-text {
   cursor: pointer;
 }
 
-iframe {
-  display: none;
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 30px;
+  }
+  .top-div {
+    padding: 20px;
+    gap: 2rem;
+  }
 }
